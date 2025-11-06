@@ -10,7 +10,7 @@ int main()
     do
     {
         printf("\n It is a normal Scientific Calculator \n");
-        printf("1. addition\n 2. Subtraction\n 3.Multiplication (multi-numbers)\n 4. Divison\n 5. Exit\n");
+        printf(" 1. addition\n 2. Subtraction\n 3. Multiplication (multi-numbers)\n 4. Divison\n 5. Exit\n");
         printf("Enter what operation you want: ");
 
         scanf("%d", &operation);
