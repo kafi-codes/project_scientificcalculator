@@ -39,7 +39,20 @@ int main()
             }
             printf("Multiplication result is  %.4lf \n", Result);
             break;
+
+        case 4:
+             printf("How many numbers do you like to devide? ");
+             scanf("%d",Number);
+        if (num2 != 0) 
+        {
+           result =num1 / num 2;
+           printf("%lfd / %lfd =%lf\n" , Number1, Number2, Result);
+        } 
+        else
+        {
+            printf ("erroe!division by 0 is not allowed"\n);
         }
+        break ;
 
     } while (operation != 5);
 
