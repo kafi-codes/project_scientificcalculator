@@ -17,6 +17,12 @@ int main()
 
         switch (operation)
         {
+        case 1:
+            printf("Enter two numbers to add: ");
+            scanf("%lf %lf", &Number1, &Number2);
+            Result = Number1 + Number2;
+            printf("Addition result is: %.4lf\n", Result);
+            break;
 
         case 3:
 
