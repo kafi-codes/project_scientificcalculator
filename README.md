@@ -41,11 +41,11 @@ int main()
             break;
 
         case 4:
-             printf("How many numbers do you like to devide? ");
-             scanf("%d",Number);
-        if (num2 != 0) 
+             printf("enter Number1 , Number2");
+             scanf("%d,%d",&Numbr1, &Number1);
+        if (Number2 != 0) 
         {
-           result =num1 / num 2;
+           result =Number1 / Number2;
            printf("%lfd / %lfd =%lf\n" , Number1, Number2, Result);
         } 
         else
