@@ -41,20 +41,22 @@ int main()
             break;
 
         case 4:
-             printf("enter Number1 , Number2");
-             scanf("%d,%d",&Numbr1, &Number1);
-        if (Number2 != 0) 
-        {
-           result =Number1 / Number2;
-           printf("%lfd / %lfd =%lf\n" , Number1, Number2, Result);
-        } 
-        else
-        {
-            printf ("erroe!division by 0 is not allowed"\n);
+            printf("enter Number1 , Number2 : ");
+            scanf("%lf %lf", &Number1, &Number2);
+            if (Number2 != 0)
+            {
+                Result = Number1 / Number2;
+                printf("%lfd / %lfd =%lf\n", Number1, Number2, Result);
+            }
+            else
+            {
+                printf("erroe!division by 0 is not allowed\n");
+            }
+            break;
         }
-        break ;
 
     } while (operation != 5);
+            
 
-    return 0;
+        return 0;
 }
