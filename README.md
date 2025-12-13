@@ -57,7 +57,7 @@ This project is suitable for academic use, beginner-to-intermediate C learners, 
 
 Author 
 
-Developer:  
+Team members:  
 
 1.Maksud Ibne Al-Kafi (2533867642). 
 
@@ -65,7 +65,7 @@ Developer:
 
 3.M. M. Nur Ibne Hasnat (2533176642). 
 
-4. Nafi Monsur (2533176642). 
+4.Nafi Monsur (2533176642). 
 
  
 Course : CSE 115  
