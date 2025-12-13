@@ -1,62 +1,73 @@
-#include <stdio.h>
-#include <math.h>
+Scientific Calculator (C Console Application)
 
-int main()
-{
-    int operation;
-    double Number1, Number2, Result;
-    int Number;
 
-    do
-    {
-        printf("\n It is a normal Scientific Calculator \n");
-        printf(" 1. addition\n 2. Subtraction\n 3. Multiplication (multi-numbers)\n 4. Divison\n 5. Exit\n");
-        printf("Enter what operation you want: ");
+This project is a menu-driven scientific calculator developed in C as a console-based application. It is designed to perform both basic arithmetic and advanced scientific calculations while demonstrating structured programming, use of mathematical libraries, and file handling in C. The calculator also includes ANS memory and a persistent calculation history feature. 
 
-        scanf("%d", &operation);
+Features 
 
-        switch (operation)
-        {
-        case 1:
-            printf("Enter two numbers to add: ");
-            scanf("%lf %lf", &Number1, &Number2);
-            Result = Number1 + Number2;
-            printf("Addition result is: %.4lf\n", Result);
-            break;
+Basic Arithmetic Operations 
 
-        case 3:
+Addition of two numbers 
+Subtraction of two numbers 
+Multiplication of multiple numbers 
+Division with proper division-by-zero validation 
+Scientific Calculations 
 
-            printf(" How many numbers do you like to multiply? ");
-            scanf("%d", &Number);
-            Result = 1;
-            printf(" Enter %d numbers : \n", Number);
+Square root 
+Power function (xʸ) 
+Trigonometric functions: 
+Sine (degrees) 
+Cosine (degrees) 
+Tangent (degrees) 
+Natural logarithm (base e) 
+Factorial calculation 
+Quadratic equation solver 
+Memory and History 
 
-            for (int i = 1; i <= Number; i++)
-            {
+Stores the most recent result using ANS 
+Automatically saves each calculation to history.txt 
+Allows users to view past calculations across program executions 
+Option to clear calculation history when required 
+How to Use 
 
-                scanf("%lf", &Number1);
-                Result *= Number1;
-            }
-            printf("Multiplication result is  %.4lf \n", Result);
-            break;
+Compile and run the program 
+Select an operation from the menu by entering its number 
+Provide the required input values 
+View results instantly and reuse the last answer using ANS 
+Exit the program safely using the exit option 
+Requirements 
 
-        case 4:
-            printf("enter Number1 , Number2 : ");
-            scanf("%lf %lf", &Number1, &Number2);
-            if (Number2 != 0)
-            {
-                Result = Number1 / Number2;
-                printf("%lfd / %lfd =%lf\n", Number1, Number2, Result);
-            }
-            else
-            {
-                printf("erroe!division by 0 is not allowed\n");
-            }
-            break;
-        }
+A C compiler (GCC, Code::Blocks, Dev-C++, or similar) 
+Any major operating system (Windows, Linux, macOS) 
+Basic knowledge of C programming 
+File Handling 
 
-    } while (operation != 5);
-            
+history.txt stores all calculation results 
+The history file remains available even after restarting the program 
+Users can clear the file contents using the Clear History option 
+Limitations 
 
-        return 0;
-}
+Factorial values may overflow for large inputs 
+Trigonometric functions may return large values near undefined angles 
+Complex roots in quadratic equations are indicated but not calculated 
+Purpose 
+
+This project is suitable for academic use, beginner-to-intermediate C learners, and as a demonstration of console-based application development in C. 
+    
+
+Author 
+
+Developer:  
+
+1.Maksud Ibne Al-Kafi (2533867642). 
+
+2.Nafew Zaman (2534052642). 
+
+3.M. M. Nur Ibne Hasnat (2533176642). 
+
+4. Nafi Monsur (2533176642). 
+
+ 
+Course : CSE 115  
+
+Instructor: Mohammad Shifat-E-Rabbi 
