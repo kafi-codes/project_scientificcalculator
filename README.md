@@ -1,4 +1,4 @@
-Scientific Calculator (C Console Application)
+Scientific Calculator 
 
 
 This project is a menu-driven scientific calculator developed in C as a console-based application. It is designed to perform both basic arithmetic and advanced scientific calculations while demonstrating structured programming, use of mathematical libraries, and file handling in C. The calculator also includes ANS memory and a persistent calculation history feature. 
